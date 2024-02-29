@@ -11,7 +11,7 @@ dependencies:
   builder_flutter_factories:
     git:
       url: https://github.com/surge-contractors/builder_flutter_factories.git
-      ref: main
+      ref: cb871f1e665c7329e2b7a70124022df4046fb74d
   builder_models:
     git:
       url: https://github.com/surge-contractors/builder_models.git
