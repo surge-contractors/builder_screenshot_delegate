@@ -1,0 +1,27 @@
+name: builder_screenshot_delegate
+description: A Very Good Project created by Very Good CLI.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  builder_flutter_factories:
+    git:
+      url: https://github.com/surge-contractors/builder_flutter_factories.git
+      ref: main
+  builder_models:
+    git:
+      url: https://github.com/surge-contractors/builder_models.git
+      ref: main
+  device_preview: ^1.1.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0
+  very_good_analysis: ^5.1.0
